@@ -64,8 +64,8 @@ export default {
     methods: {
         fetchTasks() {
             axios.get('/api/tasks')
-                .then(response => {
-                    this.tasks = response.data;
+                .then(res => {
+                    this.tasks = res.data;
                 });
         },
 
@@ -84,7 +84,7 @@ export default {
 
         },
 
-        remove(taskId) {
+        remove(id) {
             axios.delete(`/api/tasks/${id}`)
                 .then(() => this.fetchTasks());
 
