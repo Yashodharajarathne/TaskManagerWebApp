@@ -16,7 +16,11 @@ class TaskController extends Controller
     public function store(Request $request)
     {
         $request->validate(['title' => 'required']);
-        return Task::create([$request->only('title')]);
+        return Task::create([
+            'title' => $request->title,
+            'is_completed' => false,
+        ]);
+        return response()->json(['message' => 'Task created successfully'], 201);
     }
 
     public function toggle($id)

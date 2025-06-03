@@ -70,10 +70,15 @@ export default {
         },
 
         addTask() {
+            if (this.newTask.trim() === '') return;
+
             axios.post('/api/tasks', { title: this.newTask })
-                .then(()=> {
+                .then(() => {
                     this.newTask = '';
                     this.fetchTasks();
+                })
+                .catch(error => {
+                    console.error('Error adding task:', error);
                 });
 
         },
