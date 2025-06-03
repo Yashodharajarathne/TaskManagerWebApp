@@ -36,7 +36,7 @@ Follow the steps below to set up the project locally:
 
 ```bash
 git clone https://github.com/your-username/task-manager.git
-cd task-manager
+cd TaskManagerWebApp
 
 ⚙️ Configure Environment
 
