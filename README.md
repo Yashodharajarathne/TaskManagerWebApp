@@ -1,13 +1,13 @@
 # ✅ Task Manager – Laravel + Vue.js
 
-A modern and responsive Task Manager web application built using **Laravel 10** (API backend) and **Vue.js 3** (frontend). This app allows users to create, toggle, and delete tasks with real-time UI updates and a stylish interface.
+A modern and responsive Task Manager web application built using **Laravel 11** (API backend) and **Vue.js 3** (frontend). This app allows users to create, toggle, and delete tasks with real-time UI updates and a stylish interface.
 
 ---
 
 ## 🚀 Features
 
 - ✅ Add, toggle, and delete tasks via RESTful API
-- 🎨 Beautiful UI with **Fredoka One** font and glassmorphism design
+- 🎨 Beautiful UI and glassmorphism design
 - ⚡ Dynamic Vue 3 frontend with Axios integration
 - 🔒 Validation and error handling for clean UX
 
@@ -15,7 +15,7 @@ A modern and responsive Task Manager web application built using **Laravel 10** 
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Laravel 10 (API only)
+- **Backend**: Laravel 11 
 - **Frontend**: Vue.js 3 with Vite
 - **Database**: MySQL
 - **HTTP**: Axios
@@ -30,7 +30,7 @@ A modern and responsive Task Manager web application built using **Laravel 10** 
 
 ## 📦 Setup Instructions
 
-Follow the steps below to set up the project locally:
+Follow the steps below to set up the project locally
 
 ### 🔁 Clone the Repo
 
